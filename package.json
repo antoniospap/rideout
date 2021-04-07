@@ -1,0 +1,18 @@
+{
+  "name": "rideout",
+  "version": "1.0.0",
+  "description": "1. ## Description\r My idea is to create a 2D static shooting web-game. With static I mean that there will be a\r static environment/image which the character will be able to navigate in (i.e., there will not be\r an environment to explore, only one specific environment per level).\r So, first the user will control a character with the arrows left, right, up, down and will be\r shooting with the space. There will be multiple enemies (the first thought is zombies, but that\r depends on if I find appropriate graphics for it), which approach the character from multiple\r positions. The players work will be to eliminate these enemies and receive score. When\r specific score is reached there will be a level up, and with a level up the user will be rewarded\r with new stronger weapons. Each level will be harder than the previous one, and more, faster,\r and stronger enemies will approach. I’m thinking of also making a boss zombie appear which\r will take some time to defeat every 3rd level or so.\r Once the player lose, their high score will be saved in a list with all the players high scores.\r There might be an option to save and load the game, if this is possible to be done with\r databases, I will look further into it.\r I came to think about this idea since I used to play a lot of web-games in the past, and one of\r my favorites was one called boxHead. So, I thought about creating a game with boxHead as a\r reference in my mind. Unfortunately, I haven’t found a working link with this game, since\r every link requires adobe flash that is no longer supported.",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.lnu.se:1me326/student/ap223jt/rideout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phaser": "^3.52.0"
+  }
+}

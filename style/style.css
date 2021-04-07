@@ -1,0 +1,78 @@
+canvas {
+    display: block;
+    margin: auto;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+a {
+    cursor: pointer;
+    scale: 2;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+a:hover {
+    transform: scale(1.08);
+    text-decoration: underline;
+  }
+
+  #playerName{
+    font-weight: bolder;
+    font-size: 25px;
+    color: red;
+  }
+  #logout {
+    border: 2px solid black;
+    padding: 7px;
+    display: block;
+  }
+  #logged-user {
+    position: absolute;
+    border:  3px solid black;
+    padding: 10px;
+    font-family: cursive;
+  }
+  .loginMsg {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+  }
